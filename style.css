@@ -24,14 +24,27 @@
 .my-3{
     margin:30px;
 }
-.spn{
+.spny{
+    font-size:50px;
 color:#56AF58 ;
     text-decoration: underline;
-
-    &:hover{
-        color:#56AF58;
-    }
 }
+.underline {
+    text-decoration: underline;
+    line-height: 1.6;
+}
+
+.spn{
+    font-size:50px;
+    color:#56AF58 ;
+}
+
+.spann{
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
 .my-icon{
     margin: 10px;
 }
@@ -50,6 +63,22 @@ color:#56AF58 ;
     justify-content:space-around;
     gap:25px 0;
 }
+.card-body{
+    width: 50%;
+}
+.img-car{
+    width:70%
+}
+.shadow{
+    box-shadow: 4px 4px 3px 6px rgba(34, 60, 80, 0.2);
+}
+.card{
+    width: 30.2%;
+
+    img{
+        width: 100%;
+    }
+}
 .section-padding{
     padding:50px 0;
     margin-bottom:40px;
@@ -57,9 +86,12 @@ color:#56AF58 ;
 .align-center{
     align-items:center;
 }
-
+.title-typ{
+    font-size:20px;
+    font-weight: lighter;
+    margin:20px;
+}
 .title{
-    font-weight:bold;
     font-size: 100px;
 }
 .first-block {
@@ -71,13 +103,34 @@ color:#56AF58 ;
 .second-block{
     width:52.4%;
 }
+
 .img-cards{
     padding:20px;
     width: 46.6%
 }
-.title-block{
-    width:20.4%;
-    margin: 20px ;
+.card-img{
+    width:30,2%;
+
+    img{
+        width: 100%;
+        
+    }
+}
+
+.text{
+    margin:20px;
+}
+.display{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:25px;
+}
+.title-block {
+    margin: 20px;
+}
+.color{
+    color:#56AF58;
 }
 .btn{
     margin:10px;
