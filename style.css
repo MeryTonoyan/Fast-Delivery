@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1440px;
+    margin:0 auto;
+}
+.container-small{
+    max-width:800px;
+    margin:0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.bg-color{
+ background-color: #EEF2FF;
+}
+.p-3{
+    padding:30px;
+}
+.my-3{
+    margin:30px;
+}
+.spn{
+color:#56AF58 ;
+    text-decoration: underline;
+
+    &:hover{
+        color:#56AF58;
+    }
+}
+.my-icon{
+    margin: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.vh-35{
+    height: 35vh;
+}
+.vh-50{
+    height: 50vh;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap:25px 0;
+}
+.section-padding{
+    padding:50px 0;
+    margin-bottom:40px;
+}
+.align-center{
+    align-items:center;
+}
+
+.title{
+    font-weight:bold;
+    font-size: 100px;
+}
+.first-block {
+    width: 44%;
+}
+.img-card{
+    width:54%;
+}
+.second-block{
+    width:52.4%;
+}
+.img-cards{
+    padding:20px;
+    width: 46.6%
+}
+.title-block{
+    width:20.4%;
+    margin: 20px ;
+}
+.btn{
+    margin:10px;
+    padding:15px;
+    color: white;
+    background-color: #56AF58;
+    font-size: 20px;
+    border:  none;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+}
