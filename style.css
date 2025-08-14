@@ -25,7 +25,7 @@
     margin:30px;
 }
 .spny{
-    font-size:50px;
+    font-size:100px;
 color:#56AF58 ;
     text-decoration: underline;
 }
@@ -96,24 +96,25 @@ color:#56AF58 ;
 }
 .first-block {
     width: 44%;
-}
-.img-card{
-    width:54%;
+
+    .img-card {
+        width: 54%;
+    }
 }
 .second-block{
     width:52.4%;
 }
-
 .img-cards{
     padding:20px;
     width: 46.6%
 }
+
 .card-img{
-    width:30,2%;
+    width:30.2%;
 
     img{
         width: 100%;
-        
+
     }
 }
 
